@@ -3,7 +3,6 @@ import {
   SiGithub,
   SiLinkedin,
   SiInstagram,
-  SiTwitter,
   SiYoutube,
   SiMongodb,
   SiExpress,
@@ -18,7 +17,6 @@ import {
   SiMysql,
   SiNginx,
   SiRedis,
-  SiAmazonaws,
   SiVercel,
   SiPostman,
   SiGit,
@@ -32,6 +30,8 @@ import {
   FaHeart,
   FaCode,
   FaReddit,
+  FaAws,
+  FaTwitter,
 } from "react-icons/fa";
 import { ReactComponent as RedditIcon } from "./assets/icons/reddit.svg";
 // Icon wrapper component to handle undefined icons
@@ -165,7 +165,7 @@ const App = () => {
     },
     {
       name: "AWS",
-      icon: <IconWrapper icon={SiAmazonaws} className="text-orange-400" />,
+      icon: <IconWrapper icon={FaAws} className="text-orange-400" />,
     },
     {
       name: "Vercel",
@@ -311,7 +311,7 @@ const App = () => {
     },
     {
       name: "Twitter",
-      icon: <IconWrapper icon={SiTwitter} />,
+      icon: <IconWrapper icon={FaTwitter} />,
       url: "https://x.com/Amitpaney992",
       color: "blue",
     },
